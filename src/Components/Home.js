@@ -11,7 +11,7 @@ const Home = () => {
   const [discountGain, setDiscountGain] = useState("");
   const [selectedInvestmentType, setSelectedInvestmentType] = useState(null);
   const [netGain, setNetGain] = useState("");
-  const [taxPaid, setTaxPaid] = useState("");
+  // const [taxPaid, setTaxPaid] = useState("");
 
   const handleInputChange = () => {
     const purchase = parseFloat(purchasePrice) || 0;
